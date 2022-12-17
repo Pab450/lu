@@ -26,4 +26,4 @@ jobs:
         with:
           files: |
             export/*
-          tag_name: Release - $(date + '%Y-%m-%d')
+          tag_name: Export
