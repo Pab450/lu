@@ -6,6 +6,7 @@ const fs = require("fs");
 
 axios.get("https://www.rotowire.com/daily/nba/value-report.php").then(response => {
     const slateId = response.data.match(/data-slateid="(.*)"/)[1].split('"')[0];
+    
     const bar = new cliProgress.SingleBar({
         format: "Treatment | {bar} | {percentage}% | {value}/{total} {error}",
     }, cliProgress.Presets.shades_classic);
