@@ -26,3 +26,4 @@ jobs:
         with:
           files: |
             export/*
+          tag_name: ${{ github.sha }}
