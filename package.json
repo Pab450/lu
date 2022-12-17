@@ -1,0 +1,16 @@
+{
+  "name": "lu",
+  "version": "1.0.0",
+  "description": "NBA Data Scrapper with Sorare data aggregation",
+  "main": "index.js",
+  "scripts": {
+    "export": "node ."
+  },
+  "author": "pablo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "cli-progress": "^3.11.2",
+    "json2csv": "^5.0.7"
+  }
+}
